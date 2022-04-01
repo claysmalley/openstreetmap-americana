@@ -505,12 +505,13 @@ export function loadShields(shieldImages) {
       shieldImages.shield40_us_ne_2,
       shieldImages.shield40_us_ne_3,
     ],
+    textLayoutConstraint: ShieldText.southHalfellipseTextConstraint,
     textColor: "black",
     padding: {
       left: 4,
       right: 4,
-      top: 4,
-      bottom: 4,
+      top: 2,
+      bottom: 7,
     },
   };
 
